@@ -1,0 +1,124 @@
+/* ==== Base styles ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.bold-heading,
+h2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+.tool-box {
+    width: 85%;
+    height: 250px;
+    margin: 0 auto 20px auto;
+    border-radius: 7px;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 25px hsl(230, 5%, 76%);
+    position: relative;
+}
+
+.tool-box p {
+    margin: 5px 0;
+}
+
+.tool-box img {
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team-b {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin-bottom: 50px;
+}
+
+.attribution { 
+    font-size: 0.8rem; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* ==== Media Queries ==== */
+
+@media (min-width: 992px) {
+    header {
+        max-width: 30%;
+    }
+
+    main {
+        width: 80%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .packages {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .packages-1,
+    .packages-2,
+    .packages-3 {
+        flex-basis: 33.3333%;
+    }
+
+    .packages-1,
+    .packages-3 {
+        align-self: center;
+    }
+
+    .tool-box {
+        width: 90%;
+    }
+}
