@@ -79,9 +79,14 @@ header p {
     margin-bottom: 50px;
 }
 
+footer {
+    padding: 30px 10px 10px 10px;
+}
+
 .attribution { 
+    margin: 0;
     font-size: 0.8rem; 
-    text-align: center; 
+    text-align: center;
 }
 
 .attribution a {
@@ -97,7 +102,7 @@ header p {
     }
 
     main {
-        width: 80%;
+        width: 85%;
         max-width: 1300px;
         margin: 0 auto;
     }
@@ -120,5 +125,9 @@ header p {
 
     .tool-box {
         width: 90%;
+    }
+
+    footer {
+        padding-top: 50px;
     }
 }
